@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="newResquestStyle.css">
+
+    <title>New request</title>
+</head>
+
+<body class="background-page">
+
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark navpurple">
+        <a class="navbar-brand titleNavBar" href="#">Pretty Please</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <!--Extra space to center the nav bar-->
+    <!-- <div class="collapse navbar-collapse"></div> 
+    <div class="collapse navbar-collapse"></div>  -->
+     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Review and Accept <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">New Request <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About us<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse"></div> 
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+                </li>
+  
+            </ul>
+          </div>
+
+    </nav> 
+
+    <div class="row form-style">   
+        <div class="col-sm-12 col-md-4 offset-md-4">
+            <div class="container">
+
+                <!--New request heading-->
+                <h3 class="page-heading">Let's get started!</h3>
+                <h6 class="page-information">Tell us what you're raising money for</h6>
+
+
+                    <!--New request Form-->
+                    <form>
+                        <div class="form-group">
+                            <label for="amountRequest">Amount</label>
+                            <input type="text" class="form-control" id="amountRequest" placeholder="£1,000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="descriptionRequest">Description</label>
+                            <textarea class="form-control" id="descriptionRequest" rows="3" placeholder="Write here a description of your project"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                             <label for="durationRequest">Duration</label>
+                             <div class="custom-control custom-radio">
+                                <input type="radio" id="radioDurationOneOff" name="radioDuration" class="custom-control-input">
+                                <label class="custom-control-label" for="radioDurationOneOff">One-off</label>
+                              </div>
+                              <div class="custom-control custom-radio radioDurationMonths">
+                                <input type="radio" id="radioDurationMonths" name="radioDuration" class="custom-control-input">
+                                <label class="custom-control-label" for="radioDurationMonths">
+                                    <input type="text" class="form-control form-control-sm" id="durationRequest" placeholder="18 months">
+                                </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="incentiveRequest">Incentive</label>
+                             <textarea class="form-control" id="incentiveRequest" rows="3" placeholder="Write here the incentive you offer (sponsor branding, vouchers, sampling opportunities,...)"></textarea>
+                        </div>
+                           
+                    </form>
+                    <div class="text-right">
+                        <button type="button" class="btn btn-primary buttonRegister">Register</button>
+                    </div>
+            </div>
+         </div>
+     </div>
+
+</body>
+</html>

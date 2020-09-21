@@ -1,0 +1,27 @@
+.container{
+    background-color: #ffffff ;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.form-style
+{
+    padding-top:30px;
+}
+.page-heading{
+
+    text-align: center;
+}
+
+.page-information{
+    text-align: center;
+}
+.radioDurationMonths{
+    padding-top: 5px;
+}
+
+.buttonRegister{
+    background-color: #5e35b1 ;
+    border-color:#5e35b1 ; 
+    text-align: right;
+}
