@@ -9,4 +9,5 @@ This project uses the following technology:
 - HTML
 - CSS
 
-![alt text] (https://github.com/leireulacia/static_HTML_pages/blob/master/Screenshot_newRequest_staticPage.png)
+![alt text](https://github.com/leireulacia/static_HTML_pages/blob/master/Screenshot_newRequest_staticPage.png)
+
